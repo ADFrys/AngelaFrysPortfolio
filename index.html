@@ -31,6 +31,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 
 </head>
 
@@ -218,10 +220,10 @@
                         <br><br>
                     <label for="message">Message:
                         <br><br>
-                        <textarea id="message" rows="10" cols="98" required></textarea>
+                        <textarea id="message" rows="10" cols="50" required></textarea>
                     </label>
                     <br><br>
-                    <input type="submit" class="btn btn-primary" class="btn btn-primary">
+                    <input type="submit" id="submitbutton" class="btn btn-primary">
                 </form>
             </div>
 
@@ -243,6 +245,7 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>
+    <script src="js/firebase.js"></script>
 
 </body>
 
