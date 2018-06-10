@@ -416,3 +416,13 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+.new {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
