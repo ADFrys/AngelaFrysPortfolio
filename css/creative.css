@@ -443,3 +443,8 @@ body {
 ul {
   list-style-type: none;
 }
+
+.img-responsive {
+  text-align: center;
+  margin: auto;
+}
